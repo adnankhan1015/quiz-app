@@ -15,7 +15,7 @@ export default function Summary({ userAnwsers }) {
     (correctAnswers.length / userAnwsers.length) * 100
   );
 
-  const wrongAnswersShare = 100 - skippedAnswers - correctAnswers;
+  const wrongAnswersShare = 100 - skippedAnswersShare - correctAnswersShare;
 
   return (
     <div id="summary">
